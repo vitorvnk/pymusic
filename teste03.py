@@ -45,6 +45,7 @@ def menuCantor() -> None:
         '3': consultaCantor,
     }
 
+
     while True:
         print("[1] - Cadastro")
         print("[2] - Listagem de cantores")
