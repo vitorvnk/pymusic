@@ -88,7 +88,6 @@ def consultaMusica(musicas: list) -> None:
 	if getMusicaByName(musicas,name) == False:
 		print("Musica não cadastrada")
 	else:
-
             if name in musicas.values():
                 print('Musica:',end="")
 
